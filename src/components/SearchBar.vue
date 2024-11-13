@@ -1,11 +1,7 @@
 <template>
 <center>
-  <div class="search">
-      <div class="line"></div>
-      <div class="inputWrap">
+
         <input type="text" v-model="searchQuery" placeholder="Search"
-      </div>
-    </div>
 </center>
 <template v-if="searchQuery">
       <div class="row pr-5 pl-5 d-flex justify-content-center">
